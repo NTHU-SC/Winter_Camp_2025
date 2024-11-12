@@ -11,7 +11,8 @@ const pricingData = [
   "旅平險",
   "紀念品",
   "參加證書（國網中心核發）",
-  "* 住宿",
+  "* 校外住宿",
+  "* 住宿接送",
 ];
 
 const pricingData_no_hotel = [
@@ -32,7 +33,7 @@ export const Pricing = () => {
   };
 
   const handleButtonClick = () => {
-    window.open('https://scc.nthu.site/Summer_Camp_2024/form/', '_blank');
+    window.open('https://scc.nthu.site/Winter_Camp_2025/form/', '_blank');
   };
 
   return (
@@ -51,7 +52,7 @@ export const Pricing = () => {
                 報名資訊
               </h2>
               <p className="mb-6 text-customGrayText" style={{ textAlign: "left", paddingLeft: "3vw" ,fontSize: "1.2rem" }}>
-              優惠：獲清大教授推薦的大四/碩博士生，享2000元報名費減免
+              {/* 優惠：獲清大教授推薦的大四/碩博士生，享500元報名費減免 */}
               <br />
               招生對象：限學生(國中以上)，具備基礎程式能力(C語言)
               <br />
@@ -117,7 +118,7 @@ export const Pricing = () => {
                   </h4>
                   <div className="flex justify-start items-end">
                     <div className="text-3xl sm:text-4xl font-bold text-white text-left mt-4 mr-2">
-                      {isMonthly ? "$5000" : "$180"}
+                      {isMonthly ? "$4000" : "$180"}
                     </div>
                   </div>
                   <p className="mt-8 mb-8 2xl:mb-12 text-gray-500 leading-loose text-left">
@@ -146,7 +147,7 @@ export const Pricing = () => {
                   </h4>
                   <div className="flex justify-start items-end">
                     <div className="text-3xl sm:text-4xl font-bold text-white text-left mt-4 mr-2">
-                      {isMonthly ? "$4000" : "$390"}
+                      {isMonthly ? "$2000" : "$390"}
                     </div>
                   </div>
                   <p className="mt-4 mb-6 2xl:mb-10 text-gray-500 leading-loose text-left">
@@ -172,7 +173,7 @@ export const Pricing = () => {
               <div
                 className="inline-block text-center py-2 px-4 w-1/2 rounded-xl rounded-t-xl custom-button-colored font-bold leading-loose mt-16"
               >
-                報名已滿
+                12/15 開放報名
               </div>
             </div>
           </div>

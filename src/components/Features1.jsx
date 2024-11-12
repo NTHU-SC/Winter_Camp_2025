@@ -23,10 +23,10 @@ export const Features1 = () => {
             <div className="mx-auto lg:mx-auto w-11/12 sm:w-4/5 md:w-3/4 lg:w-unset">
               <span className="custom-block-subtitle">你對高效能計算有興趣嗎？想瞭解科技產業最新趨勢嗎？<br></br>現在就是你的機會！</span>
               <h2 className="mt-6 mb-8 text-4xl lg:text-5xl custom-block-big-title">
-                專注技術的夏令營
+                專注技術的冬令營
               </h2>
               <p className="mb-5 text-customGrayText leading-loose">
-              參加我們的夏令營，你將有機會操作國內領先的超級電腦，學習最前沿的平行程式設計，並掌握效能分析的核心技術。無論你是高中生還是大學生，我們的教學模式會根據你的背景和能力安排彈性學習方式，讓你獲得最好的學習效果。在這裡，你將參與超過 20 小時的專業教學課程，手把手實操練習，並參加具挑戰性的團隊黑客松競賽。
+              參加我們的冬令營，你將有機會操作國內領先的超級電腦，學習最前沿的平行程式設計，並掌握效能分析的核心技術。無論你是高中生還是大學生，我們的教學模式會根據你的背景和能力安排彈性學習方式，讓你獲得最好的學習效果。在這裡，你將參與超過 20 小時的專業教學課程，手把手實操練習，並參加具挑戰性的團隊黑客松競賽。
               </p>
               <p className="mb-5 text-customGrayText leading-loose">
               立即行動，讓你在 AI 時代不落人後！
