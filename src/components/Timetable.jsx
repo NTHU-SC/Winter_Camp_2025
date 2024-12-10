@@ -64,86 +64,89 @@ export const Timetable = () => {
     </section>
   );
 };
+
+
 const MyTable = () => {
   return (
     <table className="GeneratedTable">
       <thead>
         <tr>
-          <th rowSpan="2"></th>
-          <th colSpan="2">1/27 (六)</th>
-          <th>1/28 (日)</th>
-          <th colSpan="2">1/29 (一)</th>
-        </tr>
-        <tr>
-          <th>營隊基礎課程</th>
-          <th>競賽訓練進階課程</th>
-          <th>所有人</th>
-          <th>營隊基礎課程</th>
-          <th>競賽訓練進階課程</th>
+          <th> </th>
+          <th>Day1 1/22 (三)</th>
+          <th>Day2 1/23 (四)</th>
+          <th colSpan="2">Day3 1/24 (五)</th>
         </tr>
       </thead>
       <tbody>
         <tr>
+          <td>活動地點</td>
+          <td>綜四224</td>
+          <td>綜四224</td>
+          <td colSpan="2">綜四224、台達館、國網</td>
+        </tr>
+        <tr>
           <td>9:00~9:30</td>
-          <td colSpan="2">報到</td>
-          <td rowSpan="2">SCC 座談會</td>
-          <td colSpan="2" rowSpan="3">國網中心參訪</td>
+          <td>報到</td>
+          <td rowSpan="2">學生叢集競賽座談會</td>
+          <td colSpan="2" rowSpan="3">
+            國網中心參訪<br />
+          </td>
         </tr>
         <tr>
           <td>9:30~10:00</td>
-          <td colSpan="2">開幕介紹</td>
+          <td>開幕、活動說明</td>
         </tr>
         <tr>
           <td>10:00~12:00</td>
-          <td colSpan="2">高效能計算與平行程式簡介</td>
-          <td>超級電腦實操</td>
+          <td>基礎平行計算簡介</td>
+          <td>Pthread、openMP教學</td>
         </tr>
         <tr>
           <td>12:00~13:30</td>
-          <td colSpan="5">午餐、休息</td>
+          <td>午餐 (自理)</td>
+          <td>午餐 (自理)</td>
+          <td colSpan="2">午餐(餐盒)<br />校園巡禮與合影</td>
         </tr>
         <tr>
-          <td>13:30~14:30</td>
-          <td colSpan="2">連線至台灣杉一號</td>
-          <td rowSpan="5">平行程式教學</td>
-          <td colSpan="2">計算效能分析量測</td>
+          <td>13:30~15:00</td>
+          <td>平行計算與AI應用</td>
+          <td rowSpan="2">MPI教學</td>
+          <td>
+            作業檢討<br />
+            頒發證書<br />
+          </td>
+          <td rowSpan="2">
+            應用程式安裝<br />
+          </td>
         </tr>
         <tr>
-          <td>14:30~15:30</td>
-          <td rowSpan="2">Linux 的操作與使用</td>
-          <td rowSpan="4">應用程式的<br />編譯與連結</td>
-          <td>分組討論報告</td>
-          <td rowSpan="3">補助工具</td>
+          <td>15:00~16:30</td>
+          <td>超級電腦簡介與實操</td>
+          <td>歸賦</td>
         </tr>
         <tr>
-          <td>15:30~16:00</td>
-          <td>系所介紹</td>
+          <td>16:30~18:00</td>
+          <td>效能分析量測</td>
+          <td>上機練習 (MPI、openMP實驗)</td>
+          <td> </td>
+          <td> </td>
         </tr>
         <tr>
-          <td>16:00~16:30</td>
-          <td rowSpan="2">校園參訪</td>
-          <td>結業合照</td>
+          <td>18:00~19:00</td>
+          <td>晚餐 (Pizza 相見歡)</td>
+          <td>晚餐 (系所介紹 限高中生)</td>
+          <td colSpan="2" rowSpan="2"> </td>
         </tr>
         <tr>
-          <td>16:30~17:00</td>
-          <td rowSpan="3"></td>
-          <td>課後作業說明</td>
-        </tr>
-        <tr>
-          <td>17:00~18:30</td>
-          <td colSpan="3">晚餐、休息</td>
-          <td rowSpan="2"></td>
-        </tr>
-        <tr>
-          <td>18:30~21:30</td>
-          <td>HW1-1<br />Linux 程式設計</td>
-          <td>HW1-2<br />應用程式安裝</td>
-          <td>HW2<br />MPI &amp; OpenMP<br />程式設計</td>
+          <td>19:00~21:30</td>
+          <td>上機練習<br />(Linux, HPL Benchmark)</td>
+          <td>上機練習 (MPI、openMP實驗)</td>
         </tr>
       </tbody>
     </table>
   );
 };
+
 
 // const MyTable = () => {
 //   return (
