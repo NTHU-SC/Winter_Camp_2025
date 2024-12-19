@@ -122,7 +122,7 @@ export const Pricing = () => {
                     </div>
                   </div>
                   <p className="mt-8 mb-8 2xl:mb-12 text-gray-500 leading-loose text-left">
-                    營隊提供四晚清大學生宿舍，養精蓄銳後為課程做好準備
+                    營隊提供兩晚住宿，養精蓄銳後為課程做好準備
                   </p>
                   <ul className="mb-14 text-white">
                     {pricingData.map((text, index) => (
