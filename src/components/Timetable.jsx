@@ -111,7 +111,7 @@ const MyTable = () => {
           <td>13:30~15:00</td>
           <td>平行計算與AI應用</td>
           <td rowSpan="2">MPI教學</td>
-          <td rowSpan="3">
+          <td colSpan="2">
             作業檢討<br />
             頒發證書<br />
           </td>
