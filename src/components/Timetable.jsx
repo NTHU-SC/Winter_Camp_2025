@@ -74,7 +74,7 @@ const MyTable = () => {
           <th> </th>
           <th>Day1 1/22 (三)</th>
           <th>Day2 1/23 (四)</th>
-          <th colSpan="2">Day3 1/24 (五)</th>
+          <th>Day3 1/24 (五)</th>
         </tr>
       </thead>
       <tbody>
@@ -82,13 +82,13 @@ const MyTable = () => {
           <td>活動地點</td>
           <td>綜四224</td>
           <td>綜四224</td>
-          <td colSpan="2">綜四224、台達館、國網</td>
+          <td>綜四224、台達館、國網</td>
         </tr>
         <tr>
           <td>9:00~9:30</td>
           <td>報到</td>
           <td rowSpan="2">學生叢集競賽座談會</td>
-          <td colSpan="2" rowSpan="3">
+          <td rowSpan="3">
             國網中心參訪<br />
           </td>
         </tr>
@@ -105,13 +105,13 @@ const MyTable = () => {
           <td>12:00~13:30</td>
           <td>午餐 (自理)</td>
           <td>午餐 (自理)</td>
-          <td colSpan="2">午餐(餐盒)<br />校園巡禮與合影</td>
+          <td>午餐(餐盒)<br />校園巡禮與合影</td>
         </tr>
         <tr>
           <td>13:30~15:00</td>
           <td>平行計算與AI應用</td>
           <td rowSpan="2">MPI教學</td>
-          <td colSpan="2">
+          <td>
             作業檢討<br />
             頒發證書<br />
           </td>
@@ -126,13 +126,12 @@ const MyTable = () => {
           <td>效能分析量測</td>
           <td>上機練習 (MPI、openMP實驗)</td>
           <td> </td>
-          <td> </td>
         </tr>
         <tr>
           <td>18:00~19:00</td>
           <td>晚餐 (Pizza 相見歡)</td>
           <td>晚餐 (系所介紹 限高中生)</td>
-          <td colSpan="2" rowSpan="2"> </td>
+          <td rowSpan="2"> </td>
         </tr>
         <tr>
           <td>19:00~21:30</td>
